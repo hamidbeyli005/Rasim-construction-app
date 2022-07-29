@@ -53,7 +53,7 @@ function Footer() {
             <Socials></Socials>
           </div>
           <Theme></Theme>
-          <a className="cv" href="../../../public/R.Velibeyli-cv.pdf" download>
+          <a className="cv" href="/cv.pdf" download>
           CV YÜKLƏ
         </a>
         </ul>
