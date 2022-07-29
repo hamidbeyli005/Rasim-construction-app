@@ -4,7 +4,7 @@ import { FiPhoneCall } from "react-icons/fi";
 function Button({ data }) {
   return (
     <div className="button">
-      <a href="tel:0603312804">
+      <a href="tel:0557617151">
         {data}
         <FiPhoneCall></FiPhoneCall>
       </a>

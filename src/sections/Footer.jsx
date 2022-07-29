@@ -34,12 +34,12 @@ function Footer() {
           <li>
             <FiPhoneCall></FiPhoneCall>
 
-            <a href="tel:0603312804">0603312804</a>
+            <a href="tel:0557617151">0557617151</a>
           </li>
           <li>
             <FiPhoneCall></FiPhoneCall>
 
-            <a href="tel:0603312804">0603312804</a>
+            <a href="tel:0557617151">0557617151</a>
           </li>
         </ul>
         <ul
@@ -53,6 +53,9 @@ function Footer() {
             <Socials></Socials>
           </div>
           <Theme></Theme>
+          <a className="cv" href="../../../public/R.Velibeyli-cv.pdf" download>
+          CV YÜKLƏ
+        </a>
         </ul>
       </div>
 

@@ -17,13 +17,16 @@ function Navbar() {
   const toggleDrawer = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <div className="Navbar">
       <a href="#" className="logo">
         <span>V.</span>Rasim
       </a>
-      {onlyWidth < 1100 ? (
+        <a className="cv" href="../../../public/R.Velibeyli-cv.pdf" download>
+          CV YÜKLƏ
+        </a>
+
+      {onlyWidth < 1250 ? (
         <div className="menu" onClick={toggleDrawer}>
           <Hamburger toggled={isOpen} direction="right"></Hamburger>
         </div>
@@ -63,10 +66,11 @@ function Navbar() {
               </li>
             </ul>
           </nav>
+          
         </Drawer>
       </div>
 
-      {onlyWidth > 1100 ? (
+      {onlyWidth > 1250 ? (
         <>
           {" "}
           <nav>
@@ -88,7 +92,7 @@ function Navbar() {
         </>
       ) : null}
       <div className="right">
-        {onlyWidth > 630 ? (
+        {onlyWidth > 765 ? (
           <>
             <Theme></Theme>
             <Socials></Socials>
