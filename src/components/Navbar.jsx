@@ -22,7 +22,7 @@ function Navbar() {
       <a href="#" className="logo">
         <span>V.</span>Rasim
       </a>
-        <a className="cv" href="../../../public/R.Velibeyli-cv.pdf" download>
+        <a className="cv" href="/cv.pdf" download>
           CV YÜKLƏ
         </a>
 
